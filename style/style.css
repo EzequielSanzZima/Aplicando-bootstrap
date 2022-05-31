@@ -142,6 +142,12 @@ footer div div div p {
     font-size: 10px
 }
 
+.btnColor{
+    --bs-btn-bg: rgb(192, 76, 167);
+    --bs-btn-border-color: rgb(192, 76, 167);
+    --bs-btn-hover-bg: rgb(150, 71, 167);
+    --bs-btn-hover-border-color: rgb(150, 71, 167);
+}
 
 @media only screen and (max-width: 480px){
 
@@ -153,4 +159,10 @@ footer div div div p {
         padding: 15px 48px 5px 48px!important;
     }
 
+
+    .iconosQuienesSomos{
+        height: 16px;
+        width: 16;
+        color: blue;
+    }
 }
