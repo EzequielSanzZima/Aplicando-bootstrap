@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Servicios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/style.css">
 
+
+    <link rel="stylesheet" href="../style/style.css">
     <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
   </head>
 
@@ -58,10 +59,11 @@
     <!---------------------------------------------------->
         <!-----Inicio Main----->
 
-    <main class="servicios">
-        <h1 class="text-center">Servicios</h1>
+    <main>
+        <h1 class="text-center servicios">Servicios</h1>
 
 
+      <!--Carrousel Informacion servicios-->
         <div class="container-md pb-2">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -103,23 +105,21 @@
             </div>
         </div>
 
-         <div class="container-sm pt-5   shadow-lg p-3 mb-5 bg-body rounded ">
-            <div class="row d-flex">
-                <div class="col-lg-6 d-flex justify-content-center">
-                    <img src="../assets/servicios/ab.jpg" alt="perro dandole una ducha" class="imagenInformacionPeluqueria">
-                </div>
-                <div class="col-lg-6 p-5">
-                    <div class="letraServicioPeluqueria">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nesciunt labore ea nemo non exercitationem distinctio, rerum magni.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam.</p>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, iste ea.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ab eum natus sequi earum!</li>
-                        </ul>
-                    </div>
-                </div>
+
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-center   shadow-lg p-1 mb-5 bg-body rounded">
+            <div class="col-lg-6 text-center">
+              <img src="../assets/servicios/ab.jpg" alt="perro dandole una ducha" class="imagenInformacionPeluqueria img-thumbnail">
             </div>
+            <div class="divTextoIntroduccion col-lg-6 divServicioTexto">
+              <p class="textoIntroduccion text-center text-uppercase letraServicioPeluqueria"></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nesciunt labore ea nemo non exercitationem distinctio, rerum magni.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam.</p>
+              <ul class="text-center">
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, iste ea.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ab eum natus sequi earum!</li>
+          </div>
         </div>
 
     </main>
